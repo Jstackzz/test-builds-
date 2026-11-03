@@ -3,7 +3,7 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Deadly Alliance test 3 (based on MK3D Online 0.1.20)
+## Deadly Alliance test 4 (based on MK3D Online 0.1.20)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
@@ -14,9 +14,12 @@ straight from your PC to theirs with **Direct match**: no server, no VPN.
 
 Taking out the infinites:
 
-- **Bo' Rai Cho:** the Puke Puddle (back, forward + 2) can't come out while the opponent is in a combo of 2 hits or
-  more, or is still down or getting up from one. A combo that ends in an untechable knockdown no longer leads into a
-  puddle and another full combo. Outside a combo the puddle works as before.
+- **Bo' Rai Cho:** the Puke Puddle (back, forward + 2) can't come out while the opponent is in a combo: from the first
+  hit until they are back on their feet standing, walking, attacking or blocking. Being down or getting up after a knockdown
+  counts, and so does slipping in a puddle. No more puddle as they get up, a hit while they slip, a knockdown, the
+  puddle again. Against an opponent who isn't in a combo, the puddle works as before. *(Test 4: was 2 hits or more.)*
+- **Drahmin:** the Ground Smash (back, down + 4) likewise can't come out while the opponent is in a combo, so it no
+  longer stands a downed opponent back up for another combo. *(New in test 4.)*
 - **Sonya:** the Kiss of Death (down, back + 1) can't come out while the opponent is in a combo of 9 hits or more, or
   is still down or getting up from one.
 - **Frost:** a player knocked down by her slide (down, forward + 4) can tech roll when landing, by tapping up or down,
