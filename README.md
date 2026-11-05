@@ -10,32 +10,9 @@ Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 This test version has **no matchmaking** and never connects to the MK3D server. Train on your own, or play a friend
 straight from your PC to theirs with **Direct match**: no server, no VPN.
 
-### What changed in Deadly Alliance
-
-The block lock comes three frames later. If you are still holding block when the attacker's next hit in a string
-starts, the game locks you in block until that hit lands: your buttons do nothing, and if you let go meanwhile, block
-drops just before the hit and it lands in full. In this test the lock starts three frames later, so there is more time
-to let go of block and interrupt a string.
-
-On Hsu Hao's 1,1,2 and Jax's 2,2,LT, counting frames from the second hit being blocked:
-
-| | Normal game | Test 5 |
-|---|---|---|
-| Let go of block | +0 to +3 (4 frames) | +0 to +6 (7 frames) |
-| Let go later than that | Locked, the third hit lands in full | Same |
-| Latest press, Bo' Rai Cho's 2 | +7 | Same |
-| Latest press, Hsu Hao's 1 | +9 | Same |
-| Keep holding block | You block the third hit | Same |
-
-- Press at least one frame after you let go.
-- If the attacker's third button comes too late, there is no third hit and no lock, as before.
-- Letting go also frees you to do anything else in those frames, not only attack.
-- It applies to every fighter's strings. Other strings have their own numbers, as the lock comes when their next hit
-  starts. A fighter the computer plays is as it always was.
-
-Everything else in Deadly Alliance is the normal 0.1.25 game, with its lag fixes and its rules against infinites. Test
-5 replaces test 4: test 4's select screen picture is gone, as in the normal game. Deception and Armageddon are the
-normal 0.1.25 games. Test 5 plays only other copies of test 5.
+Deadly Alliance has 0.1.25's lag fixes and its rules against infinites. Test 5 replaces test 4: test 4's select screen
+picture is gone, as in the normal game. Deception and Armageddon are the normal 0.1.25 games. Test 5 plays only other
+copies of test 5.
 
 ### Installing
 
