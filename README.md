@@ -3,7 +3,7 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Deadly Alliance test 4 (based on MK3D Online 0.1.20)
+## Deadly Alliance test 5 (based on MK3D Online 0.1.25)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
@@ -12,24 +12,30 @@ straight from your PC to theirs with **Direct match**: no server, no VPN.
 
 ### What changed in Deadly Alliance
 
-Taking out the infinites:
+The block lock comes three frames later. If you are still holding block when the attacker's next hit in a string
+starts, the game locks you in block until that hit lands: your buttons do nothing, and if you let go meanwhile, block
+drops just before the hit and it lands in full. In this test the lock starts three frames later, so there is more time
+to let go of block and interrupt a string.
 
-- **Bo' Rai Cho:** the Puke Puddle (back, forward + 2) can't come out while the opponent is in a combo: from the first
-  hit until they are back on their feet standing, walking, attacking or blocking. Being down or getting up after a knockdown
-  counts, and so does slipping in a puddle. No more puddle as they get up, a hit while they slip, a knockdown, the
-  puddle again. Against an opponent who isn't in a combo, the puddle works as before. *(Test 4: was 2 hits or more.)*
-- **Drahmin:** the Ground Smash (back, down + 4) likewise can't come out while the opponent is in a combo, so it no
-  longer stands a downed opponent back up for another combo. *(New in test 4.)*
-- **Sonya:** the Kiss of Death (down, back + 1) can't come out while the opponent is in a combo of 9 hits or more, or
-  is still down or getting up from one.
-- **Frost:** a player knocked down by her slide (down, forward + 4) can tech roll when landing, by tapping up or down,
-  like after other knockdowns.
+On Hsu Hao's 1,1,2 and Jax's 2,2,LT, counting frames from the second hit being blocked:
 
-Character select screen:
+| | Normal game | Test 5 |
+|---|---|---|
+| Let go of block | +0 to +3 (4 frames) | +0 to +6 (7 frames) |
+| Let go later than that | Locked, the third hit lands in full | Same |
+| Latest press, Bo' Rai Cho's 2 | +7 | Same |
+| Latest press, Hsu Hao's 1 | +9 | Same |
+| Keep holding block | You block the third hit | Same |
 
-- A new background picture, and no fire along the bottom of the screen.
+- Press at least one frame after you let go.
+- If the attacker's third button comes too late, there is no third hit and no lock, as before.
+- Letting go also frees you to do anything else in those frames, not only attack.
+- It applies to every fighter's strings. Other strings have their own numbers, as the lock comes when their next hit
+  starts. A fighter the computer plays is as it always was.
 
-Deception and Armageddon are the normal 0.1.20 games.
+Everything else in Deadly Alliance is the normal 0.1.25 game, with its lag fixes and its rules against infinites. Test
+5 replaces test 4: test 4's select screen picture is gone, as in the normal game. Deception and Armageddon are the
+normal 0.1.25 games. Test 5 plays only other copies of test 5.
 
 ### Installing
 
