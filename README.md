@@ -3,7 +3,7 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Deadly Alliance test 6 (based on MK3D Online 0.1.27)
+## Deadly Alliance test 7 (based on MK3D Online 0.1.27)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
@@ -14,8 +14,7 @@ straight from your PC to theirs with **Direct match**: no server, no VPN.
 again as soon as the last one ends, as on the PS2 version. Before, the next one had to wait after the move ended: about
 50 frames for Scorpion, up to about 150 for Sub-Zero.
 
-The rest of Deadly Alliance plays like the normal game. Test 6 replaces test 5. Deception and Armageddon are the normal
-0.1.27 games. Test 6 plays only other copies of test 6.
+Test 7 replaces test 6. Deception and Armageddon are the normal 0.1.27 games. Test 7 plays only other copies of test 7.
 
 ### Installing
 
