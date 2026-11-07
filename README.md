@@ -3,19 +3,30 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Deadly Alliance test 8 (based on MK3D Online 0.1.27)
+## Deadly Alliance test 10 (based on MK3D Online 0.1.28)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
 This test version has **no matchmaking** and never connects to the MK3D server. Train on your own, or play a friend
 straight from your PC to theirs with **Direct match**: no server, no VPN.
 
-**The Throw / special button (BLACK) has a one-second cooldown.** Pressed alone or with back, up or down, its move can
-come out again one second after the last one ends. In the normal game that wait depends on the fighter and stance, from
-about 50 frames up to about 150, and a pause can remove it. Moves with no cooldown in the normal game still have none:
-BLACK with forward, the weapon stance and a few stances' own moves.
+- **A fighter who has been knocked down can't block until they are back on their feet.** In the normal game, holding
+  block while lying on the floor or landing from a knockdown blocks the next hit and stands you straight up.
+- **Jax's string (2,2,LT, 4, back+2, back+2, 4,4,LT, tonfa swings) is much easier to land all the way through.** The
+  kicks and tonfa swings reach further while the opponent is still reeling, and a button pressed right after LT waits
+  for the style change instead of cancelling it.
+- **The Throw / special button (BLACK) works as on the PS2 version:** no wait, its move can come out again as soon as
+  the last one ends.
+- **Scorpion's Hellfire reaches a little further from the spot it marks.** In the normal game a fighter getting up can
+  slide just out of its reach for a few frames, so the same setup sometimes missed. Walking away still dodges it.
+- **Bo' Rai Cho's Puke Puddle can come out again as soon as the last one is gone from the floor,** or as soon as a
+  combo ends after someone slipped. In the normal game it stays locked for about a second after the puddle is gone, so
+  the input comes out as a plain 2.
+- **An attack over the puddle now slips:** a fighter kicking with a foot on the floor and their body over the puddle
+  trades with it, instead of going right over it.
 
-Test 8 replaces test 7. Deception and Armageddon are the normal 0.1.27 games. Test 8 plays only other copies of test 8.
+Test 10 replaces test 8. Deception and Armageddon are the normal 0.1.28 games. Test 10 plays only other copies of
+test 10.
 
 ### Installing
 
