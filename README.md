@@ -3,7 +3,7 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Deadly Alliance test 12 (based on MK3D Online 0.1.28)
+## Deadly Alliance test 13 (based on MK3D Online 0.1.28)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
@@ -22,14 +22,15 @@ straight from your PC to theirs with **Direct match**: no server, no VPN.
 - **Bo' Rai Cho's Puke Puddle can come out again as soon as the last one is gone from the floor,** or as soon as a
   combo ends after someone slipped. In the normal game it stays locked for about a second after the puddle is gone, so
   the input comes out as a plain 2.
-- **Bo' Rai Cho's Jojutsu forward + 3 can back dash 9 frames sooner** when its second hit is blocked or both hits miss.
-  It is still -29 on block, and his next attack and his block open on the same frames as before. When the second hit
-  lands, nothing changes.
+- **Bo' Rai Cho's Jojutsu forward + 3 can back dash as soon as Scorpion can after his Pi Gua 3:** 5 frames after its second
+  hit is blocked, or 2 frames after that hit's active frames when both hits miss. Only the back dash changes: if he
+  doesn't dash, the move plays out as in the normal game. It is still -29 on block. When the second hit lands, nothing
+  changes.
 - **An attack over the puddle now slips:** a fighter kicking with a foot on the floor and their body over the puddle
   trades with it, instead of going right over it.
 
-Test 12 replaces test 11. Deception and Armageddon are the normal 0.1.28 games. Test 12 plays only other copies of
-test 12.
+Test 13 replaces test 12. Deception and Armageddon are the normal 0.1.28 games. Test 13 plays only other copies of
+test 13.
 
 ### Installing
 
