@@ -3,34 +3,19 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Deadly Alliance test 13 (based on MK3D Online 0.1.28)
+## Deadly Alliance test 14 (based on MK3D Online 1.0)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
 This test version has **no matchmaking** and never connects to the MK3D server. Train on your own, or play a friend
 straight from your PC to theirs with **Direct match**: no server, no VPN.
 
-- **A fighter who has been knocked down can't block until they are back on their feet.** In the normal game, holding
-  block while lying on the floor or landing from a knockdown blocks the next hit and stands you straight up.
-- **Jax's string (2,2,LT, 4, back+2, back+2, 4,4,LT, tonfa swings) is much easier to land all the way through.** The
-  kicks and tonfa swings reach further while the opponent is still reeling, and a button pressed right after LT waits
-  for the style change instead of cancelling it.
-- **The Throw / special button (BLACK) works as on the PS2 version:** no wait, its move can come out again as soon as
-  the last one ends.
-- **Scorpion's Hellfire reaches a little further from the spot it marks.** In the normal game a fighter getting up can
-  slide just out of its reach for a few frames, so the same setup sometimes missed. Walking away still dodges it.
-- **Bo' Rai Cho's Puke Puddle can come out again as soon as the last one is gone from the floor,** or as soon as a
-  combo ends after someone slipped. In the normal game it stays locked for about a second after the puddle is gone, so
-  the input comes out as a plain 2.
-- **Bo' Rai Cho's Jojutsu forward + 3 can back dash as soon as Scorpion can after his Pi Gua 3:** 5 frames after its second
-  hit is blocked, or 2 frames after that hit's active frames when both hits miss. Only the back dash changes: if he
-  doesn't dash, the move plays out as in the normal game. It is still -29 on block. When the second hit lands, nothing
-  changes.
-- **An attack over the puddle now slips:** a fighter kicking with a foot on the floor and their body over the puddle
-  trades with it, instead of going right over it.
+- **Deadly Alliance plays as it does in MK3D Online 0.1.39.**
+- It has none of test 13's changes. Test 13 is still on the releases page for anyone who wants those.
+- **Practice records the dummy**, as in MK3D Online since 0.1.39: F9 records what your controller does as the dummy
+  (up to 30 seconds), F10 plays it back, F11 picks one of 8 slots, F12 sets once, repeat or random slot.
 
-Test 13 replaces test 12. Deception and Armageddon are the normal 0.1.28 games. Test 13 plays only other copies of
-test 13.
+Deception and Armageddon are the normal 1.0 games. Test 14 plays only other copies of test 14.
 
 ### Installing
 
