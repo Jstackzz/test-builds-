@@ -3,19 +3,23 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Deadly Alliance test 14 (based on MK3D Online 1.0)
+## Deadly Alliance test 15 (based on MK3D Online 1.0.3)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
 This test version has **no matchmaking** and never connects to the MK3D server. Train on your own, or play a friend
 straight from your PC to theirs with **Direct match**: no server, no VPN.
 
-- **Deadly Alliance plays as it does in MK3D Online 0.1.39.**
-- It has none of test 13's changes. Test 13 is still on the releases page for anyone who wants those.
-- **Practice records the dummy**, as in MK3D Online since 0.1.39: F9 records what your controller does as the dummy
-  (up to 30 seconds), F10 plays it back, F11 picks one of 8 slots, F12 sets once, repeat or random slot.
+- **JUKEBOX**: the music of any Mortal Kombat on the stages, as Tekken 8 does it. Put each soundtrack in a folder of
+  its own inside `Music\MK3D Jukebox` (m4a, mp3, wav or flac files), pick a soundtrack for the game and every stage
+  gets a song of it chosen for the stage, with that soundtrack's own select-screen music on the select screen; or pick
+  any song for any stage. Each game is set up on its own. Online only you hear your choice.
+- **VERSUS** on the Single Player page: the two-player select screen with every fighter, costume and stage unlocked,
+  player 2 on the controller you choose there.
+- Deadly Alliance plays as it does in test 14. Test 14 is still on the releases page.
 
-Deception and Armageddon are the normal 1.0 games. Test 14 plays only other copies of test 14.
+Deception and Armageddon are the normal 1.0.3 games; the jukebox works for Deception too, while Armageddon's music can't
+be changed yet. Test 15 plays only other copies of test 15.
 
 ### Installing
 
