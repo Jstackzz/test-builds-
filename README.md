@@ -3,23 +3,25 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Deadly Alliance test 15 (based on MK3D Online 1.0.3)
+## Deadly Alliance test 16 (based on MK3D Online 1.0.3)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
 This test version has **no matchmaking** and never connects to the MK3D server. Train on your own, or play a friend
 straight from your PC to theirs with **Direct match**: no server, no VPN.
 
-- **JUKEBOX**: the music of any Mortal Kombat on the stages, as Tekken 8 does it. Put each soundtrack in a folder of
-  its own inside `Music\MK3D Jukebox` (m4a, mp3, wav or flac files), pick a soundtrack for the game and every stage
-  gets a song of it chosen for the stage, with that soundtrack's own select-screen music on the select screen; or pick
-  any song for any stage. Each game is set up on its own. Online only you hear your choice.
+- **JUKEBOX**, like Tekken 8's, in all three games. Put each soundtrack in a folder of its own inside
+  `Music\MK3D Jukebox` (m4a, mp3, wav or flac files). Pick what a game plays: its original music, a soundtrack as
+  its preset (each stage gets the song that fits it best, the menus that game's menu and select-screen music) or
+  shuffled (new songs each time the game starts), every soundtrack shuffled, or My Playlist 1, 2 or 3 with a song
+  from any game for each stage, the main menu and the select screen, each to hear first. The soundtracks are listed
+  in the order the games came out. Online only you hear your choice.
 - **VERSUS** on the Single Player page: the two-player select screen with every fighter, costume and stage unlocked,
   player 2 on the controller you choose there.
-- Deadly Alliance plays as it does in test 14. Test 14 is still on the releases page.
+- Deadly Alliance plays as it does in test 15 and test 14; test 16 plays copies of test 15 too. Older tests are still
+  on the releases page.
 
-Deception and Armageddon are the normal 1.0.3 games; the jukebox works for Deception too, while Armageddon's music can't
-be changed yet. Test 15 plays only other copies of test 15.
+Deception and Armageddon are the normal 1.0.3 games (only Deception's Yin Yang Island keeps its own music).
 
 ### Installing
 
