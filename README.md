@@ -3,23 +3,23 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Deadly Alliance test 18 (based on MK3D Online 1.0.4)
+## Deadly Alliance test 19 (based on MK3D Online 1.0.4)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
 This test version has **no matchmaking** and never connects to the MK3D server. Train on your own, or play a friend
 straight from your PC to theirs with **Direct match**: no server, no VPN.
 
-New in test 18:
+New in test 19:
 
-- **A jukebox song never plays over itself any more.** The games play their music in pieces (an intro, then a loop)
-  and start the next piece after a set time; with your song in every piece, the song started again on top of itself
-  (a few seconds into the select screen, and after a while on a stage). Now each song plays to its end, then starts
-  again, in all three games.
-- **On a stage your song is the round music.** The round-end sting and the "Finish him" music are the game's own
-  again, and your song starts with every round, as the game's own music does.
-- From test 17: the songs play as loud as the game's own music, the select screen plays your song from the start, and
-  Deadly Alliance's Acid Bath never sprays acid. Test 18 plays copies of test 17.
+- **Every jukebox song loops as game music does, forever.** Its intro plays once, then its loop over and over, the way
+  the original game played it: the launcher finds where each song comes back around in its soundtrack rip and makes
+  the jump back seamless, and a rip's fade-out or silence at the end is never played. A song that never repeats runs
+  to the end of its music and blends back into its beginning.
+- From test 18: a song never plays over itself, and on a stage your song is the round music (the round-end sting and
+  the "Finish him" music are the game's own). From test 17: the songs play as loud as the game's own music, the select
+  screen plays your song from the start, and Deadly Alliance's Acid Bath never sprays acid. Test 19 plays copies of
+  tests 17 and 18.
 
 Also in it:
 
