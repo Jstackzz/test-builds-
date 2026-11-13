@@ -3,12 +3,24 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Deadly Alliance test 16 (based on MK3D Online 1.0.3)
+## Deadly Alliance test 17 (based on MK3D Online 1.0.4)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
 This test version has **no matchmaking** and never connects to the MK3D server. Train on your own, or play a friend
 straight from your PC to theirs with **Direct match**: no server, no VPN.
+
+New in test 17:
+
+- The jukebox's songs play **as loud as the game's own music**: the launcher measures the music each song replaces and
+  brings the song to that level (many soundtracks, Mortal Kombat X's above all, were much quieter), with a limiter so
+  a song brought up does not crackle.
+- Deadly Alliance's **select screen plays your song from the start** (the game's own select music used to play for a
+  few seconds first), and on every stage of Deadly Alliance and Deception your song starts with the fight.
+- Deadly Alliance: **Acid Bath never sprays acid**, as in MK3D Online 1.0.4.
+- Test 17 plays only other copies of test 17.
+
+Also in it:
 
 - **JUKEBOX**, like Tekken 8's, in all three games. Put each soundtrack in a folder of its own inside
   `Music\MK3D Jukebox` (m4a, mp3, wav or flac files). Pick what a game plays: its original music, a soundtrack as
@@ -18,10 +30,9 @@ straight from your PC to theirs with **Direct match**: no server, no VPN.
   in the order the games came out. Online only you hear your choice.
 - **VERSUS** on the Single Player page: the two-player select screen with every fighter, costume and stage unlocked,
   player 2 on the controller you choose there.
-- Deadly Alliance plays as it does in test 15 and test 14; test 16 plays copies of test 15 too. Older tests are still
-  on the releases page.
+- Older tests are still on the releases page.
 
-Deception and Armageddon are the normal 1.0.3 games (only Deception's Yin Yang Island keeps its own music).
+Deception and Armageddon are the normal 1.0.4 games (only Deception's Yin Yang Island keeps its own music).
 
 ### Installing
 
