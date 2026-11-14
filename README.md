@@ -3,43 +3,46 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Deadly Alliance test 19 (based on MK3D Online 1.0.4)
+## Test 20 (MK3D Online 1.0.7)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
 This test version has **no matchmaking** and never connects to the MK3D server. Train on your own, or play a friend
-straight from your PC to theirs with **Direct match**: no server, no VPN.
+straight from your PC to theirs with **Direct match**: no server, no VPN. All three games are in it.
 
-New in test 19:
+New in test 20:
 
-- **Every jukebox song loops as game music does, forever.** Its intro plays once, then its loop over and over, the way
-  the original game played it: the launcher finds where each song comes back around in its soundtrack rip and makes
-  the jump back seamless, and a rip's fade-out or silence at the end is never played. A song that never repeats runs
-  to the end of its music and blends back into its beginning.
-- From test 18: a song never plays over itself, and on a stage your song is the round music (the round-end sting and
-  the "Finish him" music are the game's own). From test 17: the songs play as loud as the game's own music, the select
-  screen plays your song from the start, and Deadly Alliance's Acid Bath never sprays acid. Test 19 plays copies of
-  tests 17 and 18.
+- **Tech rolls in practice.** Press **F6** in a practice fight to make the dummy tech roll when you knock it down: up,
+  then down, then back (away from you), then one of the three at random, then not at all again. It is the game's own
+  roll, as a player holding that direction as they land. F8 still makes the dummy block.
+- **The other colours of a costume.** Hold **LT** (L1) while you pick a fighter: LT and A for the first costume's
+  other colours, LT and START for the second costume's. Your opponent sees them too. When both players end up with
+  the same fighter in the same costume and colours, player 2 gets the other colours.
+- **SOUND settings**: sliders for the master volume, music, sound effects, fighter voices, announcer and the arenas'
+  own sounds. 100 % is each game as it sounds on its own; the master goes louder than the games themselves.
+- **Fatality track** in the jukebox for Deadly Alliance and Deception: pick a song for it in a playlist like any
+  stage; a soundtrack's preset or a shuffle gives it MK1's, MK2's or MKX's fatality song. Your playlists stay as they
+  were.
+- The three games play as the next MK3D Online update will have them: Deadly Alliance is the normal game now, not the
+  test version of tests 14 to 19. Test 20 plays only other copies of test 20.
 
 Also in it:
 
 - **JUKEBOX**, like Tekken 8's, in all three games. Put each soundtrack in a folder of its own inside
   `Music\MK3D Jukebox` (m4a, mp3, wav or flac files). Pick what a game plays: its original music, a soundtrack as
-  its preset (each stage gets the song that fits it best, the menus that game's menu and select-screen music) or
-  shuffled (new songs each time the game starts), every soundtrack shuffled, or My Playlist 1, 2 or 3 with a song
-  from any game for each stage, the main menu and the select screen, each to hear first. The soundtracks are listed
-  in the order the games came out. Online only you hear your choice.
+  its preset or shuffled, every soundtrack shuffled, or My Playlist 1, 2 or 3 with a song from any game for each
+  stage, the main menu, the select screen and the fatality. Online only you hear your choice.
 - **VERSUS** on the Single Player page: the two-player select screen with every fighter, costume and stage unlocked,
   player 2 on the controller you choose there.
 - Older tests are still on the releases page.
 
-Deception and Armageddon are the normal 1.0.4 games (only Deception's Yin Yang Island keeps its own music).
-
 ### Installing
 
-1. Unzip it to a new folder of its own, not over your normal MK3D Online.
-2. Start `MK3DLauncher.exe` there and point it at your games on BUILD GAME as usual (your own discs).
-3. The first time, Deadly Alliance prepares its code (about a minute): let it finish.
+1. Unzip it to a new folder of its own, not over your normal MK3D Online (over test 17, 18 or 19 is fine: your
+   settings and playlists stay).
+2. Start `MK3DLauncher.exe` there and point it at your games on BUILD GAME as usual (your own discs). A game the
+   folder never had needs BUILD GAME once.
+3. The first time, each game prepares its code (about a minute): let it finish.
 
 It can sit beside your normal MK3D Online, and both can be open at once.
 
