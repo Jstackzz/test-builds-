@@ -3,43 +3,45 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Test 20 (MK3D Online 1.0.7)
+## Test 21 (MK3D Online 1.0.10)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
 This test version has **no matchmaking** and never connects to the MK3D server. Train on your own, or play a friend
 straight from your PC to theirs with **Direct match**: no server, no VPN. All three games are in it.
 
-New in test 20:
+New in test 21:
 
-- **Tech rolls in practice.** Press **F6** in a practice fight to make the dummy tech roll when you knock it down: up,
-  then down, then back (away from you), then one of the three at random, then not at all again. It is the game's own
-  roll, as a player holding that direction as they land. F8 still makes the dummy block.
-- **The other colours of a costume.** Hold **LT** (L1) while you pick a fighter: LT and A for the first costume's
-  other colours, LT and START for the second costume's. Your opponent sees them too. When both players end up with
-  the same fighter in the same costume and colours, player 2 gets the other colours.
-- **SOUND settings**: sliders for the master volume, music, sound effects, fighter voices, announcer and the arenas'
-  own sounds. 100 % is each game as it sounds on its own; the master goes louder than the games themselves.
-- **Fatality track** in the jukebox for Deadly Alliance and Deception: pick a song for it in a playlist like any
-  stage; a soundtrack's preset or a shuffle gives it MK1's, MK2's or MKX's fatality song. Your playlists stay as they
-  were.
-- The three games play as the next MK3D Online update will have them: Deadly Alliance is the normal game now, not the
-  test version of tests 14 to 19. Test 20 plays only other copies of test 20.
+- **Finish Him music for the old Mortal Kombat songs.** When a stage plays a song from MK1, MK II, MK3, UMK3 or MK4
+  whose finish theme you have, the fight's Finish Him plays that song's own finish him music (MK II's Dead Pool on a
+  stage, then The Dead Pool's finish theme), then the game's own sting as the round ends. In all three games, in your
+  playlists, a soundtrack's preset and a shuffle. The JUKEBOX marks such a song "+ finish him"; the FINISH HIM track's
+  song plays on the stages whose song has none.
+- **Where the finish music goes**: a folder called `Finish Him` inside the soundtrack's folder (for example
+  `Music\MK3D Jukebox\mk2\Finish Him`), each file named after its stage as game rips name them: "The Dead Pool
+  Finish Theme", "Wasteland Finish Theme, The Pit II Finish Theme", "The Well (Finish Him)", "The Temple Gate - Loop".
+  "The", Roman numerals and a plural s don't matter. Where the names don't match, a soundtrack.json can name it
+  (`"finish": "Finish Him/<file>"`).
+- Short finish themes loop on their phrase, without the rip's fade.
+- The **FINISH HIM** jukebox track (one song for every stage's Finish Him) is in the test version now too.
+- The three games are MK3D Online 1.0.10's. Test 21 plays only other copies of test 21.
 
 Also in it:
 
 - **JUKEBOX**, like Tekken 8's, in all three games. Put each soundtrack in a folder of its own inside
   `Music\MK3D Jukebox` (m4a, mp3, wav or flac files). Pick what a game plays: its original music, a soundtrack as
   its preset or shuffled, every soundtrack shuffled, or My Playlist 1, 2 or 3 with a song from any game for each
-  stage, the main menu, the select screen and the fatality. Online only you hear your choice.
+  stage, the main menu, the select screen, Finish Him and the fatality. Online only you hear your choice.
+- From test 20: tech rolls in practice (**F6**), the other colours of a costume (hold **LT** while you pick a
+  fighter) and the **SOUND** settings.
 - **VERSUS** on the Single Player page: the two-player select screen with every fighter, costume and stage unlocked,
   player 2 on the controller you choose there.
 - Older tests are still on the releases page.
 
 ### Installing
 
-1. Unzip it to a new folder of its own, not over your normal MK3D Online (over test 17, 18 or 19 is fine: your
-   settings and playlists stay).
+1. Unzip it to a new folder of its own, not over your normal MK3D Online (over test 17 to 20 is fine: your settings
+   and playlists stay).
 2. Start `MK3DLauncher.exe` there and point it at your games on BUILD GAME as usual (your own discs). A game the
    folder never had needs BUILD GAME once.
 3. The first time, each game prepares its code (about a minute): let it finish.
