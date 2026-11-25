@@ -3,19 +3,19 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Test 27 (MK3D Online 1.0.18)
+## Test 28 (MK3D Online 1.0.18)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
 This test version has **no matchmaking** and never connects to the MK3D server. Train on your own, or play a friend
 straight from your PC to theirs with **Direct match**: no server, no VPN. All three games are in it.
 
-New in test 27, Jax's tonfa string in Deadly Alliance, between tests 25 and 26:
+New in test 28, Jax's tonfa string in Deadly Alliance, between tests 25 and 27:
 
-- **Jax's long string from Muay Thai through Judo into his tonfa** (it ends **4, 4, LT, 4** and the tonfa's two swings) is a juggle: from its second launch on, the Judo kicks and the two tonfa swings only land when the falling opponent is at the right height, and in the Xbox game that is one exact timing. In test 27 those kicks and swings **reach further while the opponent is still reeling from the string: a third more extra reach than in test 25, a third less than in test 26**. So it lands all its hits more often. On a block, or on an opponent who is not in the string, they are the game's own.
-- A 4 pressed within 4 frames after an LT in his string (3 in test 25, 6 in test 26) waits for the new style, instead of the old style taking it.
+- **Jax's long string from Muay Thai through Judo into his tonfa** (it ends **4, 4, LT, 4** and the tonfa's two swings) is a juggle: from its second launch on, the Judo kicks and the two tonfa swings only land when the falling opponent is at the right height, and in the Xbox game that is one exact timing. In test 28 those kicks and swings **reach further while the opponent is still reeling from the string: a little more extra reach than in test 25, a little less than in test 27**. So it lands all its hits more often. On a block, or on an opponent who is not in the string, they are the game's own.
+- A 4 pressed within 3 frames after an LT in his string (as in test 25; 4 in test 27, 6 in test 26) waits for the new style, instead of the old style taking it.
 - Everything else in the three games is MK3D Online 1.0.18's: every fighter, costume and arena unlocked, and Deadly
-  Alliance's costumes and costume buttons. Test 27 plays only other copies of test 27.
+  Alliance's costumes and costume buttons. Test 28 plays only other copies of test 28.
 
 Also in it:
 
@@ -33,7 +33,7 @@ Also in it:
 
 ### Installing
 
-1. Unzip it to a new folder of its own, not over your normal MK3D Online (over test 17 to 26 is fine: your settings
+1. Unzip it to a new folder of its own, not over your normal MK3D Online (over test 17 to 27 is fine: your settings
    and playlists stay).
 2. Start `MK3DLauncher.exe` there and point it at your games on BUILD GAME as usual (your own discs). A game the
    folder never had needs BUILD GAME once.
