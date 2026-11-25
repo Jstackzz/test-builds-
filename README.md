@@ -3,21 +3,19 @@
 Test versions of [MK3D Online](https://github.com/Jstackzz/MK-3D-rollback)'s games. A test build changes a game to
 try something out before it ever reaches everyone. It is not an update for MK3D Online: keep it in a folder of its own.
 
-## Test 23 (MK3D Online 1.0.13)
+## Test 25 (MK3D Online 1.0.18)
 
 Download it from [Releases](https://github.com/Jstackzz/test-builds-/releases).
 
 This test version has **no matchmaking** and never connects to the MK3D server. Train on your own, or play a friend
 straight from your PC to theirs with **Direct match**: no server, no VPN. All three games are in it.
 
-New in test 23, Deadly Alliance's costumes:
+New in test 25, Jax's tonfa string in Deadly Alliance:
 
-- **A third costume for four fighters.** On the select screen, hold **LT** (L2 on a PlayStation controller) and press **X** (Square) instead of A: RAIDEN in red and white; SCORPION in black and yellow (yellow mask, yellow trim along his gi, gold studs, yellow rims on his gear); BO' RAI CHO with a navy vest and sleeves, a mustard sash and black pants; JAX with a red vest, red boxing gloves, black pants, a black beret and red bands on his boots (on his own model: the same reach and collision as ever). A still picks the first costume and START the second, LT with either giving that costume's other colours.
-- **RAIDEN's first costume is a deeper, royal blue** (it was teal): in fights, on the select screen and in every mode.
-- Two players picking the same fighter's costume 3: the second gets its other colours (RAIDEN in black, SCORPION in white and yellow with the plates round the skulls on his thighs black), or the fighter's regular alternate outfit for BO' RAI CHO and JAX. One in costume 3 and the other in the fighter's first costume both keep theirs.
-- The costumes are made on your PC from your own game files when Deadly Alliance starts (in `games\mkda\costumes`); nothing from the disc comes with the download. On the select screen costume 3 shows the first costume's picture.
-- The three games are MK3D Online 1.0.13's, Deadly Alliance with the costumes. Test 23 plays only other copies of
-  test 23.
+- **Jax's long string from Muay Thai through Judo into his tonfa** (it ends **4, 4, LT, 4** and the tonfa's two swings) is a juggle: from its second launch on, the Judo kicks and the two tonfa swings only land when the falling opponent is at the right height, and in the Xbox game that is one exact timing. In test 25 those kicks and swings **reach a little further while the opponent is still reeling from the string**, so it lands all its hits more often. On a block, or on an opponent who is not in the string, they are the game's own.
+- A 4 pressed within 3 frames after an LT in his string waits for the new style, instead of the old style taking it.
+- Everything else in the three games is MK3D Online 1.0.18's: every fighter, costume and arena unlocked, and Deadly
+  Alliance's costumes and costume buttons. Test 25 plays only other copies of test 25.
 
 Also in it:
 
@@ -35,7 +33,7 @@ Also in it:
 
 ### Installing
 
-1. Unzip it to a new folder of its own, not over your normal MK3D Online (over test 17 to 22 is fine: your settings
+1. Unzip it to a new folder of its own, not over your normal MK3D Online (over test 17 to 23 is fine: your settings
    and playlists stay).
 2. Start `MK3DLauncher.exe` there and point it at your games on BUILD GAME as usual (your own discs). A game the
    folder never had needs BUILD GAME once.
@@ -52,8 +50,8 @@ SINGLE PLAYER, then Practice.
 1. Both of you pick the same game at the top.
 2. One of you presses **HOST** and sends the code it shows to the other.
 3. The other pastes the code and presses **JOIN**.
-4. Pick your fighters on the game's own select screen (LT and X for costume 3). Rematches follow until one of you
-   presses LEAVE or closes the game.
+4. Pick your fighters on the game's own select screen. Rematches follow until one of you presses LEAVE or
+   closes the game.
 
 The host's rounds and death traps are played, and the larger input delay of the two.
 
